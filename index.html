@@ -402,7 +402,7 @@
         <form class="footer-form">
             <p class="footer-form-text">Подпишитесь на рассылку</p>
             <div class="footer-form-content">
-            <input class="footer-input" type="email" name="email" placeholder="E-mail">
+            <input class="footer-input" type="email" name="footer-email" placeholder="E-mail">
             <button class="footer-form-button" type="submit">
                 <div class="footer-button-content">
                 <span class="footer-button-text">Подписаться</span>
@@ -421,6 +421,21 @@
                     <use href="./images/sprite.svg#close-icon"></use>
                 </svg>
             </button>
+            <form class="modal-form">
+                <p class="modal-text">Оставьте свои данные, мы вам перезвоним</p>
+                <label for=""></label>
+                    Имя
+                    <input type="text" name="client-name">
+                <label for=""></label>
+                    Телефон
+                    <input type="tel" name="client-phone-number">
+                <label for=""></label>
+                    Почта
+                    <input type="email" name="client-email">
+                <label for=""></label>
+                    Комментарий
+                    <textarea name="comment" placeholder="Введите текст"></textarea>
+            </form>
         </div>
     </div>
     <script src="./js/modal.js"></script>

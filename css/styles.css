@@ -550,8 +550,8 @@ img{
 }
 .footer-form {
     margin-left: 93px;
+    justify-self: flex-end;
 }
-
 .footer-form-text {
     font-weight: 700;
     font-size: 14px;
@@ -562,7 +562,6 @@ img{
 
     margin-bottom: 20px;
 }
-
 .footer-input {
     background-color: rgba(0, 0, 0, 0);
     border: 1px solid rgba(255, 255, 255, 0.3);
@@ -570,6 +569,7 @@ img{
     border-radius: 4px;
     width: 358px;
     height: 50px;
+    color: var(--primary-title-color);
 
     margin-right: 12px;
     padding-left: 16px;
@@ -582,10 +582,16 @@ img{
     border-radius: 4px;
     border-color: transparent;
     cursor: pointer;
+
     padding: 10px 29px;
+
     transition-property: background-color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.footer-form-button:hover,
+.footer-form-button:focus {
+    background: #188CE8;
 }
 .footer-button-text {
     font-weight: 700;
