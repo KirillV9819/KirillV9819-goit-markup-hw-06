@@ -887,7 +887,6 @@ img{
     border-radius: 2px;
     background-image: url(../images/icons/icon-check.svg);
     background-size: contain;
-    border: none;
 }
 .contact-form-checkbox:focus + .contact-form-checkbox-label::before{
     outline: 2px solid var(--accent-color);

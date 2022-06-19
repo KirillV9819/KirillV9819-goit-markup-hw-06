@@ -212,7 +212,8 @@
                                 class="map-link link">г. Киев, пр-т Леси Украинки, 26</a>
                         </li>
                         <li class="address-list-item">
-                            <a href="mailto:info@devstudio.com" lang="en" class="address-link email link">info@devstudio.com</a>
+                            <a href="mailto:info@devstudio.com" lang="en"
+                                class="address-link email link">info@devstudio.com</a>
                         </li>
                         <li class="address-list-item">
                             <a href="tel:+380961111111" class="address-link link">+38 096 111 11 11</a>
@@ -252,9 +253,21 @@
                         </a>
                     </li>
                 </ul>
-        
             </div>
-        </div>
+            <form class="footer-form">
+                <p class="footer-form-text">Подпишитесь на рассылку</p>
+                <div class="footer-form-content">
+                    <input class="footer-input" type="email" name="footer-email" placeholder="E-mail">
+                    <button class="footer-form-button" type="submit">
+                        <div class="footer-button-content">
+                            <span class="footer-button-text">Подписаться</span>
+                            <svg class="footer-button-icon" width="24" height="24">
+                                <use href="./images/sprite.svg#send-icon"></use>
+                            </svg>
+                        </div>
+                    </button>
+                </div>
+            </form>
     </footer>
 </body>
 </html>
