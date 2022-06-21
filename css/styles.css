@@ -501,6 +501,7 @@ img{
 }
 .footer-left{
     margin-right: 70px;
+    flex-grow: 1;
 }
 .address{
     font-style: normal;
@@ -813,6 +814,7 @@ img{
 }
 
 .contact-form-textarea{
+    display: block;
     width: 100%;
     height: 120px;
     border: 1px solid rgba(33, 33, 33, 0.2);
@@ -869,6 +871,7 @@ img{
     color: var(--secondary-text-color);
 
     display: flex;
+    justify-content: center;
     align-items: center;
     margin-bottom: 30px;
 }
@@ -886,6 +889,10 @@ img{
 .contact-form-checkbox:checked + .contact-form-checkbox-label::before{
     border-radius: 2px;
     background-image: url(../images/icons/icon-check.svg);
+    border-color: var(--accent-color);
+    background-position: center;
+    background-origin: border-box;
+    background-repeat: no-repeat;
     background-size: contain;
 }
 .contact-form-checkbox:focus + .contact-form-checkbox-label::before{
